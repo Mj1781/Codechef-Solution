@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	int t;
+	cin>>t;
+	for(int i=0;i<t;i++){
+	    int x;
+	    cin>>x;
+	    if(x<7){
+	        cout<<"YES"<<endl;
+	    }
+	    else if(x>=7){
+	        cout<<"NO"<<endl;
+	    } 
+	}
+	return 0;
+}
+
+
+Description: 
+## Problem
+A person is said to be sleep deprived if he slept strictly less than 77 hours in a day.
+
+Chef was only able to sleep XX hours yesterday. Determine if he is sleep deprived or not.
+
+
